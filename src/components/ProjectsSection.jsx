@@ -1,38 +1,40 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react"
 
 const projects = [
+
     {
         id: 1,
-        title: "To Do List",
-        description: "A functional to do list using React and Vite.",
-        image: "/projects/Project1.png",
-        tags: "React",
-        demoUrl: "#",
+        title: "Job-Portal",
+        description: "A full stack platform connecting job seekers and employers",
+        image: "/projects/Project7.png",
+        tags: ["React.js, Node.js, Express.js, Clerk"],
+        demoUrl: "http://localhost:5173/",
         githubUrl: "#"
          
         },
 
-         {
+    {
         id: 2,
-        title: "React Router",
-        description: "Practicing React Router using React.",
-        image: "/projects/Project3.png",
-        tags: "React, TailwindCSS",
-        demoUrl: "#",
+        title: "To Do List",
+        description: "A functional to do list using React and Vite.",
+        image: "/projects/Project1.png",
+        tags: "React",
+        demoUrl: "http://localhost:5176/",
         githubUrl: "#"
          
         },
 
          {
         id: 3,
-        title: "Calculator",
-        description: "A functional calculator using HTML, CSS, JavaScript.",
-        image: "/projects/Project5.png",
-        tags: ["HTML, CSS, JavaScript"],
-        demoUrl: "#",
+        title: "Landing-Page",
+        description: "A Landing Page for Developer Tools using React.",
+        image: "/projects/Project3.png",
+        tags: "React, TailwindCSS",
+        demoUrl: "http://localhost:5175/",
         githubUrl: "#"
          
         },
+
 ]
 
 export const ProjectsSection = () =>{

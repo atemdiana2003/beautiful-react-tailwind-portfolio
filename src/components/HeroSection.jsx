@@ -13,13 +13,13 @@ export const HeroSection = () =>{
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                I'm create interactive web apss with modern technologies.
+                I create interactive web apps with modern technologies.
                 Specializing in front-end development, I build interfaces that are
                  both beautiful and functional.
             </p>
 
             <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-                <a href="projects" className="cosmic-button">
+                <a href="http://localhost:5173/" className="cosmic-button">
                     View My Work
                 </a>
             </div>
